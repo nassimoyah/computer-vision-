@@ -1,0 +1,60 @@
+git init : to creat init file that will track all changes of our project
+git status : status of our project : added / non adde files ....
+git add file_name : to add the file to the repository   
+git add .  : add all files  
+
+3 main steps : adding , commiting , pushing 
+
+git commit -m " first commit" 
+
+we can  select  a branch  
+
+git bransh -M main .... can be skipped 
+
+now we connect to our github  :  git remote add origin https://github.com/nassimoyah/computer-vision-.git 
+
+now we push  :  git push -u origin main 
+
+
+
+create a new repository on the command line
+
+echo "# push-" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/nassimoyah/push-.git
+  git push -u origin main
+
+
+or push an existing repository from the command line
+git remote add origin https://github.com/nassimoyah/push-.git
+  git branch -M main
+  git push -u origin main
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+after doing this for the first time the next time whenwe modify our code we just use 
+git add . 
+git commit -m " second commit " 
+git push 
+/////////////////////////////////////////////////////////////////////////////////////////////
+vertual envirenment " self contained directory " :  should creat a vertula env "venv"  vscode when working on specific python 
+project to isolate pakages of this specific interpreter from the global python interpreter 
+
+A virtual environment in Python is a self-contained directory that contains its own Python 
+interpreter and a set of libraries 
+or packages. This allows you to isolate your
+ Python project's dependencies from the system-wide Python interpreter and other projects, 
+which can be crucial when working on multiple projects with different dependencies or versions.
+
+interpreter :
+
+
+
+////////////////////////////////////////////////////////////////////////
+A uint8 data type contains all whole numbers from 0 to 255. As with all 
+unsigned numbers, the values must be non-negative. Uint8's are mostly used in
+ graphics (colors are always non-negative).
