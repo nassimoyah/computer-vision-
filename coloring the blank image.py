@@ -4,7 +4,7 @@ blank = np.zeros((500,500,3),dtype='uint8')
 
 cv.imshow('bl',blank)
 
-blank[0:100] = 0,255,0
+blank[0:100,0,250] = 0,255,0
 
 cv.imshow('green',blank)
 
